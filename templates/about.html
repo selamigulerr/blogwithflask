@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+{% block body %}
+<h3>Hakkımızda</h3>
+<hr>
+* Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 999-792-909
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [09/Apr/2020 01:24:17] "?[37mGET / HTTP/1.1?[0m" 200 -
+127.0.0.1 - - [09/Apr/2020 01:24:20] "?[37mGET /about HTTP/1.1?[0m" 200 -
+127.0.0.1 - - [09/Apr/2020 01:24:21] "?[33mGET /article HTTP/1.1?[0m" 404 -
+127.0.0.1 - - [09/Apr/2020 01:24:23] "?[37mGET /about HTTP/1.1?[0m" 200 -
+127.0.0.1 - - [09/Apr/2020 01:25:01] "?[37mGET /about HTTP/1.1?[0m" 200 -
+<hr>
+
+{% endblock %}
