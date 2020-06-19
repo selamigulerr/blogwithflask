@@ -5,7 +5,6 @@ from passlib.hash import sha256_crypt
 from MySQLdb.cursors import DictCursor
 from functools import wraps
 
-import COVID19Py
 
 
 
